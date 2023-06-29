@@ -12,7 +12,7 @@ const eqArrays = function(array1, array2) {
   return match;
 };
 
-const assertArraysEqual = function(array1, array2) {
+const assertEqual = function(array1, array2) {
   if (eqArrays(array1, array2) === true) {
     return `✅✅✅ Assertion passed: ${array1} === ${array2}`;
   } else {
@@ -21,9 +21,15 @@ const assertArraysEqual = function(array1, array2) {
 };
 
 
-
-
-// TEST CODE
-console.log(assertArraysEqual([1, 2, 3], [1, 2, 3]));
-console.log(assertArraysEqual([1, 2, 3], [3, 2, 1])); 
-console.log(assertArraysEqual([1, 2, 3], [1, 2, "3"]));
+const flatten = function(array) {
+  let finalArray = [];
+  for (let x = 0; x < array.length; x++) {
+    if (Array.isArray(array[x])) {
+      const nestedArray = flatten(array[x]);
+      finalArray = finalArray.concat(nestedArray);
+    } else {
+      finalArray.push(array[x]);
+    }
+  }
+  return finalArray;
+};
