@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@shanimithani/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Recreation of the lodash library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/shanimithani/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shani Mithani and Lighthouse Labs",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shanimithani/lotide/issues"
