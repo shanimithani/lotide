@@ -20,10 +20,12 @@ const findKeyByValue = function (obj, item) {
  
 
 
-const obj = {
+/*const obj = {
   breakfast: "eggs",
   lunch: "cake",
   dinner: "mac and cheese",
   snack: "cake"
 }
-console.log(findKeyByValue(obj, "cake"));
+console.log(findKeyByValue(obj, "cake"));*/
+
+module.exports = findKeyByValue;

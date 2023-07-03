@@ -30,8 +30,10 @@ const without = function(values, toRemove) {
   return newArray;
 };
 
-const words = ["hello", "world", "lighthouse"];
+/*const words = ["hello", "world", "lighthouse"];
 let newArray = without(words, ["lighthouse"]);
 // Make sure the original array was not altered by the without function
 console.log(assertEqual(words, ["hello", "world", "lighthouse"]));
-console.log(newArray);
+console.log(newArray);*/
+
+module.exports = without;

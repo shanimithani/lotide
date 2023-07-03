@@ -22,4 +22,4 @@ const countLetters = function(sentence) {
 };
 
 
-console.log(countLetters("yooo this is sick"))
+module.exports = countLetters;

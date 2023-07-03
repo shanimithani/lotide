@@ -33,10 +33,11 @@ const map = function (array, callback) {
   return results;
 }
 
-let nums1 = [1,2,3,4];
+/*let nums1 = [1,2,3,4];
 let nums2 = [34];
 let nums3 = [2, 0];
 
 console.log(assertArraysEqual(map(nums1, double),[2,4,6,8]));
 console.log(assertArraysEqual(map(nums2, double),[68]));
-console.log(assertArraysEqual(map(nums3, double),[4,0]));
+console.log(assertArraysEqual(map(nums3, double),[4,0]));*/
+module.exports = map;

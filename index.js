@@ -34,5 +34,5 @@ module.exports = {
   letterPositions,
   map,
   takeUntil,
-  without: w
+  without
 };

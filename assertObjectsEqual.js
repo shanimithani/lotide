@@ -48,6 +48,4 @@ const eqObjects = function(object1, object2) {
   return match;
 };
 
-let object1 = { a: '1', b: 2 };
-let object2 = { b: 2, a: '1' };
-console.log(assertObjectsEqual(object1,object2));
+module.exports = assertObjectsEqual;

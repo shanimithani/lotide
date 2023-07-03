@@ -33,3 +33,5 @@ const flatten = function(array) {
   }
   return finalArray;
 };
+
+module.exports = flatten;
